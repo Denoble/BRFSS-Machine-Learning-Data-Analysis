@@ -1,0 +1,4 @@
+Source: LLCP2020ASC.zip
+CDC layout: https://www.cdc.gov/brfss/annual_data/2020/llcp_varlayout_20_onecolumn.html
+SHA256 source ZIP: da383cf09366baba214f56cc3172f972c5afe0432d440e8a419d3f90b053214f
+Script: prepare_2020.py

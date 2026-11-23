@@ -1,0 +1,33 @@
+
+
+# Core Data Manipulation & Large Data Handling
+numpy
+pandas
+polars        # Fast, memory-efficient DataFrames for large EHR datasets
+pyarrow        # Required for Parquet files and fast data serialization
+dask[dataframe] # Out-of-core computation for datasets larger than RAM
+
+# Machine Learning & Statistical Modeling
+scikit-learn
+scipy
+statsmodels     # Essential for clinical biostatistics & survival analysis
+lifelines     # Survival analysis (Kaplan-Meier, Cox proportional hazards)
+xgboost
+lightgbm
+imbalanced-learn # Handling rare diseases / imbalanced clinical outcomes
+
+
+# Clinical NLP (Uncomment if working with clinical notes)
+transformers
+spacy
+
+
+# Model Explainability (Crucial for medical/clinical validation)
+shap
+
+# Visualization & VS Code Jupyter Integration
+matplotlib
+seaborn
+ipykernel      # Required to run Jupyter notebooks inside VS Code
+jupyter
+tqdm           # Progress bars for large batch processing

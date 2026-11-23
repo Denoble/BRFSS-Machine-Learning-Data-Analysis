@@ -1,0 +1,37 @@
+variable,category,CDC_ASCII_start_1based,width,description_or_rule,notes
+_STATE,Geography,1,2,State/territory FIPS,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_PSU,Design,36,10,Primary sampling unit,Original CDC response codes; consult 2020 official codebook for valid and missing values
+GENHLTH,Health,101,1,Self-rated general health,Original CDC response codes; consult 2020 official codebook for valid and missing values
+PHYSHLTH,Health,102,2,Days of poor physical health,Original CDC response codes; consult 2020 official codebook for valid and missing values
+MENTHLTH,Health,104,2,Days of poor mental health,Original CDC response codes; consult 2020 official codebook for valid and missing values
+HLTHPLN1,Health,108,1,Health coverage,Original CDC response codes; consult 2020 official codebook for valid and missing values
+PERSDOC2,Health,109,1,Personal doctor,Original CDC response codes; consult 2020 official codebook for valid and missing values
+EXERANY2,Behavior,112,1,Exercise in last 30 days,Original CDC response codes; consult 2020 official codebook for valid and missing values
+CVDINFR4,Outcome source,115,1,Ever told myocardial infarction,Original CDC response codes; consult 2020 official codebook for valid and missing values
+DIABETE4,Outcome source,126,1,Ever told diabetes,Original CDC response codes; consult 2020 official codebook for valid and missing values
+MARITAL,Demographic,167,1,Marital status,Original CDC response codes; consult 2020 official codebook for valid and missing values
+EDUCA,Demographic,168,1,Education,Original CDC response codes; consult 2020 official codebook for valid and missing values
+VETERAN3,Demographic,181,1,Veteran status,Original CDC response codes; consult 2020 official codebook for valid and missing values
+EMPLOY1,Demographic,182,1,Employment,Original CDC response codes; consult 2020 official codebook for valid and missing values
+INCOME2,Demographic,185,2,Household income,Original CDC response codes; consult 2020 official codebook for valid and missing values
+SMOKE100,Behavior,202,1,Ever smoked 100 cigarettes,Original CDC response codes; consult 2020 official codebook for valid and missing values
+SMOKDAY2,Behavior,203,1,Current cigarette use,Original CDC response codes; consult 2020 official codebook for valid and missing values
+ECIGNOW,Behavior,311,1,Current e-cigarette use,Original CDC response codes; consult 2020 official codebook for valid and missing values
+ALCDAY5,Behavior,208,3,Alcohol drinking frequency,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_STSTR,Design,1410,6,Sampling stratum,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_LLCPWT,Design,1751,10,"Final sampling weight retained, not used",Original CDC response codes; consult 2020 official codebook for valid and missing values
+_RFHLTH,Outcome source,1899,1,Fair or poor health calculated,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_TOTINDA,Behavior,1903,1,Leisure-time physical inactivity,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_RACEGR3,Demographic,1977,1,Race group,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_SEX,Demographic,1979,1,Calculated sex,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_AGEG5YR,Demographic,1980,2,Five-year age group,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_AGE80,Demographic,1983,2,Age top-coded at 80,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_BMI5,Outcome source,1997,4,BMI times 100,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_BMI5CAT,Outcome source,2001,1,BMI category,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_SMOKER3,Behavior,2006,1,Calculated smoking category,Original CDC response codes; consult 2020 official codebook for valid and missing values
+DRNKANY5,Behavior,2008,1,Any drinking,Original CDC response codes; consult 2020 official codebook for valid and missing values
+_RFBING5,Behavior,2012,1,Binge drinking indicator,Original CDC response codes; consult 2020 official codebook for valid and missing values
+DIABETES_YN,Derived outcome,,,"1 if DIABETE4=1; 0 if DIABETE4 in 2,3,4; missing otherwise",1=yes; 0=no; blank=missing
+MI_YN,Derived outcome,,,1 if CVDINFR4=1; 0 if CVDINFR4=2; missing otherwise,1=yes; 0=no; blank=missing
+FAIR_POOR_HEALTH_YN,Derived outcome,,,1 if _RFHLTH=2; 0 if _RFHLTH=1; missing otherwise,1=yes; 0=no; blank=missing
+OBESITY_YN,Derived outcome,,,"1 if _BMI5CAT=4; 0 if _BMI5CAT in 1,2,3; missing otherwise",1=yes; 0=no; blank=missing

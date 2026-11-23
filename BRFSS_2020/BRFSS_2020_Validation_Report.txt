@@ -1,0 +1,15 @@
+BRFSS 2020 STUDENT DATA VALIDATION
+Source: LLCP2020ASC.zip / LLCP2020.ASC 
+ZIP SHA256: da383cf09366baba214f56cc3172f972c5afe0432d440e8a419d3f90b053214f
+ASCII SHA256: 43b3ce0383d336d70c11dc98ba8c33559a3b5146ee3fc1399c8d7350b277ad08
+CDC published records: 401958
+Observed records: 401958
+Record lengths: {2037: 401958}
+Variables: 32 source + 4 derived = 36
+Geographic codes: 53
+DIABETES_YN: {'1': 52094, '0': 349050, 'missing': 814}; total=401958
+MI_YN: {'0': 377918, 'missing': 2083, '1': 21957}; total=401958
+FAIR_POOR_HEALTH_YN: {'0': 339301, '1': 61696, 'missing': 961}; total=401958
+OBESITY_YN: {'0': 245060, 'missing': 41357, '1': 115541}; total=401958
+Passed: ZIP CRC, record count, record length, valid outcome codes, source-to-CSV full-field audit, obesity yes/missing counts against CDC published codebook.
+Limitations: Not a complete audit of all CDC response labels or all CDC published frequency tables. Unweighted teaching only.

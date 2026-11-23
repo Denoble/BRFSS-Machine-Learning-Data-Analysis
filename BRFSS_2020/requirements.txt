@@ -1,0 +1,17 @@
+
+
+pathlib 
+scikit-learn
+seaborn
+matplotlib
+statsmodels
+dataframe_image
+numpy
+scikit-learn
+pandas
+tensorflow
+scipy
+ipykernel
+torch
+torchvision
+torchaudio

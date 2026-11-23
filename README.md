@@ -1,0 +1,1 @@
+Machine Learning and Statistical  Fair/Poor health  Behavioral Risk Factor Surveillance System (BRFSS) Analysis using   2000 survey data provided by Centers for Disease Control and Prevention (CDC) of the United States of America.

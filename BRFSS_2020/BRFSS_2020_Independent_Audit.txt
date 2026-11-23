@@ -1,0 +1,1 @@
+PASS: 401958 rows x 32 original fields and 4 derived outcomes; 0 mismatches. Original field positions checked against CDC 2020 combined LLCP layout. Obesity frequency and missing count match CDC 2020 codebook. Not a complete audit of all response code labels or weighted estimates.
